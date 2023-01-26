@@ -11,7 +11,7 @@ In the process of building this app I learnt:
 3. Conditional rendering. E.g the splash screen was rendered with a useState boolean value
 4. Using boolean values to determine the state of an app in order to pass a conditional statement
    for another action. E.g. A useState was set up with a boolean value of "false" and only to be true
-   if the question clicked from the api useState is the same as the currentQuestion in the option props.
+   if the question clicked from the api useState is the same as the currentQuestion passed to the option props.
    If so, we pass the selection answer to the return value of the api state.
    
  Challenges:
