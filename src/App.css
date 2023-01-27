@@ -36,6 +36,7 @@ html {
 .splash p {
   font-size: 2rem;
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 .blobs-yellow {
